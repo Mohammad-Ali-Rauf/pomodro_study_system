@@ -8,6 +8,8 @@ Built by someone who hated math so much, he coded his own disciplinary AI overlo
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange.svg)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![GitHub issues](https://img.shields.io/github/issues/yourusername/flowstate-enforcer)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/flowstate-enforcer)
 
 ---
 
@@ -55,7 +57,10 @@ graph LR
 
 ---
 
-## 🚀 Installation (Linux only, because Windows is cringe)
+## 🚀 Installation
+
+>     Linux only. If you still want to click “Next” on installation wizards, go back to your toys.
+>     The grown-ups are working here — don’t disturb.
 
 ```bash
 # Clone the repository
@@ -81,7 +86,7 @@ python3 flow_enforcer.py --start
 # Check status
 python3 flow_enforcer.py --status
 
-# Stop the pain (temporarily)
+# Stop the pain (this is fake script, it doesnt exist, either solve math or sacrifice dignity to make it stop haunting your dreams)
 python3 flow_enforcer.py --stop
 ```
 

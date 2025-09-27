@@ -63,7 +63,7 @@ class VillainOptInDialog(QDialog):
         # Title - make it intimidating
         title = QLabel("THE VILLAIN ARC AWAITS")
         title.setAlignment(Qt.AlignCenter)
-        title.setFont(QFont("Arial", 18, QFont.Bold))
+        title.setFont(QFont("Arial", 18, QFont.Weight.Bold))
         layout.addWidget(title)
         
         # Description
@@ -81,12 +81,12 @@ class VillainOptInDialog(QDialog):
         button_layout = QHBoxLayout()
         
         # The "Be a Good Boy" option (but framed differently)
-        reject_btn = QPushButton("❌ Live in Comfort")
+        reject_btn = QPushButton("⚡ 'Maaama, he hit me 😭😭😭'")
         reject_btn.clicked.connect(self.reject_villainy)
         button_layout.addWidget(reject_btn)
         
         # The villainous acceptance
-        accept_btn = QPushButton("🔥 Embrace the Villain Arc")
+        accept_btn = QPushButton("💀 I wanna enter villian arc of Johan Liebert")
         accept_btn.setObjectName("accept_btn")
         accept_btn.clicked.connect(self.accept_villainy)
         button_layout.addWidget(accept_btn)
@@ -136,7 +136,7 @@ def main():
     app = QApplication(sys.argv)
     
     # Check if we're in a desktop environment (not SSH/headless)
-    if not os.getenv('DISPLAY'):
+    if sys.platform.startswith("linux") and not os.getenv("DISPLAY"):
         print("No display detected - cannot show opt-in dialog")
         return 1
     

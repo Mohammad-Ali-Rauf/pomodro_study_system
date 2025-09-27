@@ -1,0 +1,23 @@
+{
+  "topics": ["algebra", "calculus", "statistics"],
+
+  "session_minutes": 25,
+  "break_minutes": 5,
+  "max_lock_minutes": 60,
+
+  "roast_level": "savage",
+  "roast_level_options": ["light", "medium", "savage"],
+
+  "safe_kill_passphrase": "i-give-up",
+
+  "punishment_multiplier": 2,
+
+  "ego_log": "data/ego_history.log",
+
+  "_comments": {
+    "roast_level": "Controls intensity of roasts (light = nudges, savage = brutal insults)",
+    "safe_kill_passphrase": "Lets you force quit early, but logs your shame",
+    "punishment_multiplier": "How much longer each wrong answer adds (exponential scaling)",
+    "ego_log": "Path to where roast history and failures are logged"
+  }
+}
