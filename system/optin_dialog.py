@@ -81,12 +81,12 @@ class VillainOptInDialog(QDialog):
         button_layout = QHBoxLayout()
         
         # The "Be a Good Boy" option (but framed differently)
-        reject_btn = QPushButton("⚡ 'Maaama, he hit me 😭😭😭'")
+        reject_btn = QPushButton("⚡ 'Maaama, he hit me 😭'")
         reject_btn.clicked.connect(self.reject_villainy)
         button_layout.addWidget(reject_btn)
         
         # The villainous acceptance
-        accept_btn = QPushButton("💀 I wanna enter villian arc of Johan Liebert")
+        accept_btn = QPushButton("💀 Experience Johan Liebert IRL")
         accept_btn.setObjectName("accept_btn")
         accept_btn.clicked.connect(self.accept_villainy)
         button_layout.addWidget(accept_btn)

@@ -188,6 +188,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute.
 
 MIT License → freedom + pain = productivity.
 
+## Disclaimer
+
+> Read more at [DISCLAIMER.md](DISCLAIMER.md)
+
 ---
 
 ## 💡 Backstory
